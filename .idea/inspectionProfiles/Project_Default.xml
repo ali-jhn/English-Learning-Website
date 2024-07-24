@@ -1,0 +1,142 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="230" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="en-us" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="64">
+            <item index="0" class="java.lang.String" itemvalue="kaf" />
+            <item index="1" class="java.lang.String" itemvalue="redisbloom" />
+            <item index="2" class="java.lang.String" itemvalue="yekta-kaf" />
+            <item index="3" class="java.lang.String" itemvalue="psycopg2-binary" />
+            <item index="4" class="java.lang.String" itemvalue="persianutils" />
+            <item index="5" class="java.lang.String" itemvalue="django-storages" />
+            <item index="6" class="java.lang.String" itemvalue="redis" />
+            <item index="7" class="java.lang.String" itemvalue="yekta-takhlis-collector" />
+            <item index="8" class="java.lang.String" itemvalue="yekta-aci" />
+            <item index="9" class="java.lang.String" itemvalue="celery" />
+            <item index="10" class="java.lang.String" itemvalue="yekta-config" />
+            <item index="11" class="java.lang.String" itemvalue="django-multi-captcha-admin" />
+            <item index="12" class="java.lang.String" itemvalue="yekta-snapshot" />
+            <item index="13" class="java.lang.String" itemvalue="jdatetime" />
+            <item index="14" class="java.lang.String" itemvalue="web-decouple" />
+            <item index="15" class="java.lang.String" itemvalue="uwsgi" />
+            <item index="16" class="java.lang.String" itemvalue="djangorestframework" />
+            <item index="17" class="java.lang.String" itemvalue="hazm" />
+            <item index="18" class="java.lang.String" itemvalue="django-cors-headers" />
+            <item index="19" class="java.lang.String" itemvalue="yekta-metrics" />
+            <item index="20" class="java.lang.String" itemvalue="coverage" />
+            <item index="21" class="java.lang.String" itemvalue="django-simple-history" />
+            <item index="22" class="java.lang.String" itemvalue="image" />
+            <item index="23" class="java.lang.String" itemvalue="raven" />
+            <item index="24" class="java.lang.String" itemvalue="django-plus" />
+            <item index="25" class="java.lang.String" itemvalue="boto" />
+            <item index="26" class="java.lang.String" itemvalue="yekta-iplacement" />
+            <item index="27" class="java.lang.String" itemvalue="statsd" />
+            <item index="28" class="java.lang.String" itemvalue="django-simple-captcha" />
+            <item index="29" class="java.lang.String" itemvalue="yekta-itakhlis" />
+            <item index="30" class="java.lang.String" itemvalue="boto3" />
+            <item index="31" class="java.lang.String" itemvalue="pyzstd" />
+            <item index="32" class="java.lang.String" itemvalue="yekta-django-rest-framework-jwt" />
+            <item index="33" class="java.lang.String" itemvalue="django-csp" />
+            <item index="34" class="java.lang.String" itemvalue="django-filter" />
+            <item index="35" class="java.lang.String" itemvalue="Django" />
+            <item index="36" class="java.lang.String" itemvalue="yekta-icore" />
+            <item index="37" class="java.lang.String" itemvalue="django-axes" />
+            <item index="38" class="java.lang.String" itemvalue="django-redis" />
+            <item index="39" class="java.lang.String" itemvalue="yekta-dande" />
+            <item index="40" class="java.lang.String" itemvalue="Pillow" />
+            <item index="41" class="java.lang.String" itemvalue="python-snappy" />
+            <item index="42" class="java.lang.String" itemvalue="asgiref" />
+            <item index="43" class="java.lang.String" itemvalue="PyJWT" />
+            <item index="44" class="java.lang.String" itemvalue="backports.zoneinfo" />
+            <item index="45" class="java.lang.String" itemvalue="cffi" />
+            <item index="46" class="java.lang.String" itemvalue="redis-py-cluster" />
+            <item index="47" class="java.lang.String" itemvalue="django-autofixture" />
+            <item index="48" class="java.lang.String" itemvalue="python-magic" />
+            <item index="49" class="java.lang.String" itemvalue="grpcio-health-checking" />
+            <item index="50" class="java.lang.String" itemvalue="ruamel-yaml" />
+            <item index="51" class="java.lang.String" itemvalue="ruamel-yaml-clib" />
+            <item index="52" class="java.lang.String" itemvalue="referencing" />
+            <item index="53" class="java.lang.String" itemvalue="freezegun" />
+            <item index="54" class="java.lang.String" itemvalue="tzdata" />
+            <item index="55" class="java.lang.String" itemvalue="sniffio" />
+            <item index="56" class="java.lang.String" itemvalue="vine" />
+            <item index="57" class="java.lang.String" itemvalue="gevent" />
+            <item index="58" class="java.lang.String" itemvalue="APScheduler" />
+            <item index="59" class="java.lang.String" itemvalue="protobuf" />
+            <item index="60" class="java.lang.String" itemvalue="confluent-kafka" />
+            <item index="61" class="java.lang.String" itemvalue="pandas" />
+            <item index="62" class="java.lang.String" itemvalue="scikit-learn" />
+            <item index="63" class="java.lang.String" itemvalue="sklearn" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E261" />
+          <option value="E262" />
+          <option value="E221" />
+          <option value="E501" />
+          <option value="E302" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="id" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="wsclient" />
+          <option value="set.__add__" />
+          <option value="icore" />
+          <option value="ad.queue.caches.base_caches.campaigns.itakhlis" />
+          <option value="ad.services.active_ads.active_ads_service.django_plus" />
+          <option value="serving.proto.ad_pb2.ReservationPaymentType" />
+          <option value="serving.proto.ad_pb2.Ad" />
+          <option value="serving.proto.ad_pb2.Province" />
+          <option value="serving.proto.ad_pb2.ISP" />
+          <option value="serving.proto.ad_pb2.DeviceBrand" />
+          <option value="serving.proto.ad_pb2.OSVersion" />
+          <option value="serving.proto.ad_pb2.BiddingStrategy" />
+          <option value="serving.proto.publisher_cpc_pb2.PublisherCpcInfo" />
+          <option value="serving.proto.ad_pb2.AdClass" />
+          <option value="serving.proto.ad_pb2.UserEnvironment" />
+          <option value="serving.proto.ad_pb2.OSType" />
+          <option value="serving.proto.ad_pb2.Country" />
+          <option value="serving.proto.ad_pb2.MonetizationType" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

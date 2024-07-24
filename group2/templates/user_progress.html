@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Progress</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        p {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-bottom: 10px;
+        }
+        strong {
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <h1>User Progress</h1>
+
+    <p>Total Answers: {{ total_answers }}</p>
+    <p>Correct Answers: {{ correct_answers }}</p>
+    <p>Progress: {{ progress }}%</p>
+
+    <h2>Answers</h2>
+    <ul>
+        {% for answer in user_answers %}
+        <li>
+            <strong>Question:</strong> {{ answer.exercise.question }}<br>
+            <strong>Your Answer:</strong> {{ answer.user_answer }}<br>
+            <strong>Correct:</strong> {{ answer.is_correct }}<br>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
