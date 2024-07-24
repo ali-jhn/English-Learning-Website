@@ -17,7 +17,7 @@ This project is a simplified version of a learning platform similar to Memrise. 
 
 - Python 3.10
 - Django 5.0.6
-- MySQL
+- PostgreSQL
 
 ## Installation
 
@@ -31,7 +31,7 @@ cd memrise_clone
 ### 2. Create a Virtual Environment and Activate It
 
 ```bash
-python3 -m venv venv
+python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```
 
@@ -41,28 +41,28 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
 
-### 4. Configure MySQL Database
+### 4. Configure PostgreSQL Database
 
-- Install MySQL and set up a new database.
-- Update the `DATABASES` setting in `memrise_clone/settings.py` with your MySQL credentials.
+- Install PostgreSQL and set up a new database.
+- Update the `DATABASES` setting in `memrise_clone/settings.py` with your PostgreSQL credentials.
 
 ### 5. Apply Migrations
 
 ```bash
-python3 manage.py makemigrations
-python3 manage.py migrate
+python manage.py makemigrations
+python manage.py migrate
 ```
 
 ### 6. Create a Superuser (Optional)
 
 ```bash
-python3 manage.py createsuperuser
+python manage.py createsuperuser
 ```
 
 ### 7. Run the Development Server
 
 ```bash
-python3 manage.py runserver
+python manage.py runserver
 ```
 
 Open your web browser and go to `http://127.0.0.1:8000/group2/select-topic/` to start using the platform.
@@ -155,7 +155,6 @@ Handles the completion of exercises and updates the user's progress.
 
 ## URLs
 
-- `/group2/get-username/`: Enter username to start.
 - `/group2/select-topic/`: Select a topic.
 - `/group2/view-lesson/<int:lesson_id>/`: View lesson details and exercises.
 - `/group2/complete-exercise/<int:exercise_id>/`: Complete an exercise.
@@ -164,7 +163,6 @@ Handles the completion of exercises and updates the user's progress.
 
 ## Templates
 
-- `get_username.html`: Form to enter the username.
 - `select_topic.html`: Displays available topics.
 - `view_lesson.html`: Displays lesson details and exercises.
 - `complete_exercise.html`: Form to complete an exercise.
@@ -172,20 +170,4 @@ Handles the completion of exercises and updates the user's progress.
 - `search_results.html`: Displays search results.
 - `review_progress.html`: Displays progress, detailed statistics, and recommendations.
 
-## Running Tests
-
-To run the tests, execute:
-
-```bash
-python3 manage.py test
-```
-
-This will run all the tests defined in `group2/tests.py`.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any changes or improvements.
+welcome! Please open an issue or submit a pull request for any changes or improvements.
